@@ -6,6 +6,26 @@ PromptOptimizer helps you experiment with different prompt-engineering technique
 
 This will then get integrated into https://github.com/whiteducksoftware/flock
 
+
+---
+
+## 🚀 Quick Start
+
+1. Create a prompt template, for example:
+
+   ```text
+   <t1:20-30> Please answer the user's question: <input> <t2:20-30> <e1:2>
+   ```
+
+2. Run the optimizer:
+
+   ```bash
+   python optimize.py --template template.txt --dataset benchmarks.json
+   ```
+
+3. Inspect the ranked prompts in `results/best_prompts.md`.
+
+
 ---
 
 ## ✨ Key Features
@@ -31,23 +51,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 Quick Start
 
-1. Create a prompt template, for example:
-
-   ```text
-   <t1:20-30> Please answer the user's question: <input> <t2:20-30> <e1:2>
-   ```
-
-2. Run the optimizer:
-
-   ```bash
-   python optimize.py --template template.txt --dataset benchmarks.json
-   ```
-
-3. Inspect the ranked prompts in `results/best_prompts.md`.
-
----
 
 ## 🔍 Template Syntax
 
