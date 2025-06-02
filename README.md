@@ -15,6 +15,9 @@ This will then get integrated into https://github.com/whiteducksoftware/flock
   ` <e1:2> ` pulls two ground-truth examples from your benchmark set.  
 - **Input placeholder**  
   ` <input> ` is replaced by the user input or benchmark query.
+- **Usage cost estimator**  
+  gradient descent over 1000 data points over 20 epochs can be quite extensive if you chose gpt-4.5 or o3 as model.
+  The app will roughly estimate the cost so people are not "I used your app and now openai wants 2mil dollars from me"
 
 ---
 
