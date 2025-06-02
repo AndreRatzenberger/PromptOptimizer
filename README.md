@@ -2,7 +2,9 @@
 
 > A lightweight playground for crafting, benchmarking, and auto-tuning AI prompts.
 
-PromptOptimizer helps you experiment with different prompt-engineering techniques—token range sweeps, few-shot examples, and more—so you can quickly discover the wording that delivers the best model performance.
+PromptOptimizer helps you experiment with different prompt-engineering techniques—token range sweeps, few-shot examples, and more, so you can quickly discover the wording that delivers the best model performance.
+
+This will then get integrated into https://github.com/whiteducksoftware/flock
 
 ---
 
@@ -62,7 +64,7 @@ A ranked list of candidate prompts that satisfy your template constraints while 
 
 ## 🤝 Contributing
 
-Pull requests are welcome—feel free to open issues for features, bugs, or ideas.
+Pull requests are welcome, feel free to open issues for features, bugs, or ideas.
 
 ---
 
